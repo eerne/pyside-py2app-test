@@ -1,0 +1,30 @@
+<html>
+<head>
+<script type="text/javascript">
+function test(){
+	var yoyo = document.getElementById('yoyo')
+	yoyo.innerHTML = navigator.userAgent;
+	yoyo.innerHTML += '\n';
+	yoyo.innerHTML += navigator.platform;
+	yoyo.innerHTML += '\n';
+	yoyo.innerHTML += document.location;
+	yoyo.innerHTML += '\n';
+	yoyo.innerHTML += document.location.host;
+
+//navigator.userAgent
+}
+
+</script>
+</head>
+<body>
+<iframe src="iframe.html">
+<p>
+lala
+</p>
+</iframe>
+yoyo
+<pre id="yoyo"></pre>
+<button onclick="test()">this is a button</button>
+
+</body>
+</html>
