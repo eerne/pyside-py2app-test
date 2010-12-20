@@ -5,11 +5,9 @@ setup(
 	options = {
 		'py2app': {
 			'argv_emulation': False,
-			"""
-			'plist': {
-				'LSPrefersPPC': False,
-			},
-			"""
+			#'plist': {
+			#	'LSPrefersPPC': False,
+			#},
 			'includes': ['PySide.QtCore', 'PySide.QtGui', 'PySide.QtWebKit', 'PySide.QtNetwork'],
 		}
 	},
