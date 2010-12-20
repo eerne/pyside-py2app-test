@@ -11,6 +11,6 @@ setup(
 			'includes': ['PySide.QtCore', 'PySide.QtGui', 'PySide.QtWebKit', 'PySide.QtNetwork'],
 		}
 	},
-    data_files = ['test.html', 'iframe.html'],
+	data_files = ['test.html', 'iframe.html'],
 	setup_requires = ['py2app'],
 )
